@@ -5,11 +5,12 @@ This project supports two functions:
 2) Decode: Decompresses Huffman coded file passed back to its original file.
 
 Command Line arguments to run encode:
+
 g++ encode.cpp huffman.cpp -o main
 
 main inputFile.txt compressedFile.huf
 
-Command Line arguments: To run decode
+Command Line arguments to run decode:
 
 g++ decode.cpp huffman.cpp -o main
 
